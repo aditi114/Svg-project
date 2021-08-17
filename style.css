@@ -7,12 +7,32 @@
   #main2{
       display: none;
   }
+  body{
+      background:rgb(113, 208, 240);
+  }
+  .content{
+      color: aliceblue;
+      position: absolute;
+      bottom: 1%;
+      left: 5%;
+      height: 150px;
+      width: 40%;
+      overflow: hidden;
+  }
+  .content p{
+      text-align: right;
+  }
+  
   #main{
       width: 100%;
       height: 100vh;
       position: relative;
       transition: 1.5s;
-      background: linear-gradient(to right, black 0%,black 50%,black 50%,rgb(197, 197, 152) 50%,rgb(197, 197, 152) 100%);
+      background-image: url(images/black.png), url(images/nexgtv-entertainment-mobile-app-development.png);
+  background-repeat: no-repeat, repeat;
+  background-size: 50% 100%;
+  transition: 1.5s;
+      /* background: linear-gradient(to right, black 0%,black 50%,black 50%,rgb(197, 197, 152) 50%,rgb(197, 197, 152) 100%); */
       
   }
  .circlebox{
@@ -124,12 +144,13 @@
         
     }
     .row{
-        background: blue;
+        background: url('images/violet.jpg');
         color: white;
     }
     img{
         width: 400px;
-        height: 400px;
+        height: 300px;
     }
+    
   }
 
